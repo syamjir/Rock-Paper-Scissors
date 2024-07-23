@@ -12,19 +12,26 @@
       <div class="score">
         <div class="player-score">
           <h2>Player</h2>
-          <p>0</p>
+          <p>
+            <span id="player-score">0</span> / <span class="max-score"></span>
+          </p>
+        </div>
+        <div class="score-board fadeOut">
+          <p>Total match: <span id="totalRounds"></span></p>
+          <p>Player: <span id="playerWins">0</span></p>
+          <p>Computer: <span id="computerWins">0</span></p>
         </div>
         <div class="computer-score">
           <h2>Computer</h2>
-          <p>0</p>
+          <p>
+            <span id="computer-score">0</span> / <span class="max-score"></span>
+          </p>
         </div>
       </div>
-
       <div class="intro">
         <h1>Rock Paper and Scissors</h1>
         <button>Let's Play</button>
       </div>
-
       <div class="match fadeOut">
         <h2 class="winner">Choose an option</h2>
         <div class="hands">
@@ -41,7 +48,6 @@
         <h2>Game created by Jobin</h2>
       </div>
     </section>
-
     <script src="./script.js"></script>
   </body>
 </html>
